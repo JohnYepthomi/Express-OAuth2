@@ -1,0 +1,16 @@
+{
+  "name": "google-api-token-server",
+  "version": "1.0.0",
+  "description": "Authorise and issue tokens and handles refresh tokens for various Google API's limited by Access Scopes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.2.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
